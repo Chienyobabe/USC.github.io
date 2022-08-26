@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image: url('腦波.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgba(241, 240, 240, 0.8);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 70%;
+  
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0);
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgba(241, 240, 240, 0.8);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.hei{
+  height: 28px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>用腦波來創造屬於你獨一無二的聲音吧！</h1>
+</div>
+
+<div class="topnav">
+  <a href="https://zh.m.wikipedia.org/zh-tw/%E8%85%A6%E6%B3%A2">什麼是腦波？</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="font-size: 270%;">關於我們</h2>
+      <p style="font-size: 155%;"><b>生活中，到處充滿著各種不同的聲音，不管是人為發出來的，像是唱歌、彈奏樂器等，或是大自然製造出來的，例如下雨的滴答聲、蟲鳴鳥叫聲，每種聲音對我們人的情緒影響上皆有不同。既然人類的情緒起伏會被周遭的聲音所影響，而產生出不一樣的心境，那從另一個角度思考，我們也可以試著用自己當下的情緒去創造出屬於自己獨一無二的歌曲。目的即是製作出「穿腦魔音-用腦波玩音階」系統，試著運用自己當下的情緒，用腦波創造出自己專屬之音階。 </b></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 style="font-size: 270%;">輸入資料</h2>
+      <input type="text" size="20" class="hei" placeholder="姓名"/></br></br></br>
+      <input type="text" size="20" class="hei" placeholder="性別"/></br></br></br>
+      <input type="text" size="20" class="hei" placeholder="電子郵件"/></br></br></br>
+      <button onclick="document.location='page 2.html'">送出</button>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>

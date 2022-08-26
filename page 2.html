@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial;
+            padding: 20px;
+            background-color: aliceblue;
+        }
+
+        .header{
+            padding: 30px;
+            text-align: center;
+            background: rgba(240, 240, 240, 1)
+        }
+
+        .header h1{
+            font-size: 50px;
+        }
+
+        .leftcolum{
+            float: left;
+            width: 70%;
+        }
+
+        .rightcolum{
+            float: left;
+            width: 30%;
+            background-color: rgba(0, 0, 0, 0);
+            padding-left: 20px;
+        }
+
+        .card{
+            background-color: rgba(240, 240, 240, 1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        table{
+            border-collaspe: collaspe;
+            width: 60%;
+        }
+
+        th, td{
+            text-align: left;
+            padding: 10px;
+        }
+
+
+        th{
+            background-color: black;
+            color: white;
+        }
+
+        .hei{
+            height: 40px;
+            width: 50px;
+            border-radius: 12px;
+            background-color: black;
+            color: white;
+        }
+
+        .line{
+            width: 100%;
+            height: 5px;
+            background-color: black;
+        }
+    </style>
+    </head>
+
+    <div class="header">
+        <h1>測驗結果</h1>
+    </div>
+
+    <div class="leftcolum">
+        <div class="card">
+            <h2 style="font-size: 200%">xxx的結果為：</h2>
+            <hr class="line">
+            <br/>
+            <table>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                </tr>
+                <tr>
+                    <td>xxx</td>
+                    <td>xxx</td>
+                    <td>Do</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+
+        <div class="rightcolum">
+
+            <div class="card">
+                <h2 style="font-size: 200%">下載區：</h2>
+                <button onclick="document.location='mailto:bebe900809@gmail.com'"  class="hei">下載</button>
+                <p style="font-size: 100%"><b>按下下載按鈕後，請至您的信箱查詢是否收到。</b></p>
+            </div>
+
+        </div>
+    </div>
+
+
+</html> 
